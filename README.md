@@ -19,7 +19,7 @@
 
 ### 🏙 My Animated City Scene
 <p align="center">
-  <img src="assets/city_scene.svg" width="800"/>
+  <img src="city_scene.svg" width="800"/>
 </p>
 
 ---
