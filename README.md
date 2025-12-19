@@ -23,15 +23,3 @@
 </p>
 
 ---
-
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SachiDasa&show_icons=true&theme=tokyonight" />
-</p>
-
----
-
-### 🔥 Streak
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SachiDasa&theme=tokyonight" />
-</p>
