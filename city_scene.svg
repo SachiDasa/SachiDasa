@@ -1,0 +1,188 @@
+<svg viewBox="0 0 800 220" width="100%" height="220" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- ===== Buildings ===== -->
+  <g>
+    <!-- Building 1 -->
+    <rect x="20" y="90" width="30" height="50" fill="#FF6F61" rx="2"/>
+    <rect x="25" y="95" width="4" height="6" fill="#fff"/>
+    <rect x="25" y="105" width="4" height="6" fill="#fff"/>
+    <rect x="25" y="115" width="4" height="6" fill="#fff"/>
+
+    <!-- Building 2 -->
+    <rect x="70" y="70" width="35" height="70" fill="#6B5B95"/>
+    <rect x="75" y="75" width="4" height="6" fill="#fff"/>
+    <rect x="85" y="75" width="4" height="6" fill="#fff"/>
+    <rect x="75" y="85" width="4" height="6" fill="#fff"/>
+    <rect x="85" y="85" width="4" height="6" fill="#fff"/>
+    <rect x="75" y="95" width="4" height="6" fill="#fff"/>
+    <rect x="85" y="95" width="4" height="6" fill="#fff"/>
+
+    <!-- Building 3 -->
+    <polygon points="130,140 145,60 160,140" fill="#88B04B"/>
+    <rect x="135" y="85" width="4" height="6" fill="#fff"/>
+    <rect x="145" y="85" width="4" height="6" fill="#fff"/>
+    <rect x="135" y="95" width="4" height="6" fill="#fff"/>
+    <rect x="145" y="95" width="4" height="6" fill="#fff"/>
+
+    <!-- Extra space -->
+
+    <!-- Building 4 -->
+    <rect x="200" y="85" width="35" height="55" fill="#F7CAC9" rx="4"/>
+    <rect x="205" y="90" width="5" height="6" fill="#fff"/>
+    <rect x="215" y="90" width="5" height="6" fill="#fff"/>
+    <rect x="205" y="100" width="5" height="6" fill="#fff"/>
+    <rect x="215" y="100" width="5" height="6" fill="#fff"/>
+
+    <!-- Building 5 -->
+    <rect x="260" y="65" width="30" height="75" fill="#92A8D1"/>
+    <rect x="265" y="70" width="4" height="6" fill="#fff"/>
+    <rect x="273" y="70" width="4" height="6" fill="#fff"/>
+    <rect x="265" y="80" width="4" height="6" fill="#fff"/>
+    <rect x="273" y="80" width="4" height="6" fill="#fff"/>
+    <rect x="265" y="90" width="4" height="6" fill="#fff"/>
+    <rect x="273" y="90" width="4" height="6" fill="#fff"/>
+
+    <!-- Extra space -->
+
+    <!-- Building 6 -->
+    <polygon points="320,140 335,100 350,140" fill="#FFB347"/>
+    <rect x="325" y="110" width="4" height="6" fill="#fff"/>
+    <rect x="335" y="110" width="4" height="6" fill="#fff"/>
+    <rect x="325" y="120" width="4" height="6" fill="#fff"/>
+    <rect x="335" y="120" width="4" height="6" fill="#fff"/>
+
+    <!-- Building 7 -->
+    <rect x="380" y="60" width="35" height="80" fill="#03C03C" rx="3"/>
+    <rect x="385" y="65" width="4" height="6" fill="#fff"/>
+    <rect x="393" y="65" width="4" height="6" fill="#fff"/>
+    <rect x="385" y="75" width="4" height="6" fill="#fff"/>
+    <rect x="393" y="75" width="4" height="6" fill="#fff"/>
+    <rect x="385" y="85" width="4" height="6" fill="#fff"/>
+    <rect x="393" y="85" width="4" height="6" fill="#fff"/>
+  </g>
+
+  <!-- ===== Background Clouds ===== -->
+  <g opacity="0.4">
+    <g>
+      <ellipse cx="150" cy="40" rx="18" ry="10" fill="#999"/>
+      <ellipse cx="170" cy="40" rx="22" ry="12" fill="#999"/>
+      <ellipse cx="190" cy="40" rx="18" ry="10" fill="#999"/>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1000 0" dur="90s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <ellipse cx="600" cy="60" rx="20" ry="11" fill="#aaa"/>
+      <ellipse cx="625" cy="60" rx="24" ry="13" fill="#aaa"/>
+      <ellipse cx="650" cy="60" rx="20" ry="11" fill="#aaa"/>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1000 0" dur="120s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- ===== Road ===== -->
+  <rect x="0" y="150" width="800" height="40" fill="#555"/>
+  <line x1="0" y1="170" x2="800" y2="170" stroke="#fff" stroke-width="2" stroke-dasharray="20 15"/>
+
+  <!-- ===== Dino ===== -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" from="120 140" to="120 105" dur="1.8s" repeatCount="indefinite" direction="alternate"/>
+    <rect x="120" y="110" width="22" height="30" fill="#777"/>
+    <rect x="140" y="120" width="18" height="20" fill="#777"/>
+    <rect x="125" y="140" width="6" height="14" fill="#555"/>
+    <rect x="135" y="140" width="6" height="14" fill="#555"/>
+  </g>
+
+  <!-- ===== Volleyball ===== -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" from="500 140" to="-200 140" dur="18s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="0 -40" dur="2.5s" repeatCount="indefinite" direction="alternate"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="3s" repeatCount="indefinite"/>
+      <circle cx="0" cy="0" r="15" fill="#fff" stroke="#000" stroke-width="2"/>
+      <path d="M -12,-5 L 0,-15 L 12,-5" stroke="#000" stroke-width="1" fill="none"/>
+      <path d="M -12,5 L 0,15 L 12,5" stroke="#000" stroke-width="1" fill="none"/>
+      <path d="M -10,-10 L -10,10" stroke="#000" stroke-width="1" fill="none"/>
+      <path d="M 10,-10 L 10,10" stroke="#000" stroke-width="1" fill="none"/>
+    </g>
+  </g>
+
+  <!-- ===== Vehicles (Bigger with Windows) ===== -->
+  <!-- Car 1 -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" from="800 160" to="-120 160" dur="8s" repeatCount="indefinite"/>
+    <rect x="0" y="0" width="50" height="18" fill="#FF4500" rx="3"/>
+    <rect x="10" y="-8" width="30" height="8" fill="#FF6347" rx="2"/>
+    <rect x="12" y="-6" width="10" height="4" fill="#87CEFA"/>
+    <rect x="28" y="-6" width="10" height="4" fill="#87CEFA"/>
+    <circle cx="10" cy="18" r="4" fill="#000"/>
+    <circle cx="40" cy="18" r="4" fill="#000"/>
+  </g>
+
+  <!-- Bus -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" from="900 160" to="-150 160" dur="12s" repeatCount="indefinite" begin="2s"/>
+    <rect x="0" y="0" width="70" height="20" fill="#1E90FF" rx="3"/>
+    <rect x="5" y="-10" width="60" height="10" fill="#87CEFA" rx="2"/>
+    <rect x="8" y="-8" width="10" height="6" fill="#fff"/>
+    <rect x="20" y="-8" width="10" height="6" fill="#fff"/>
+    <rect x="32" y="-8" width="10" height="6" fill="#fff"/>
+    <rect x="44" y="-8" width="10" height="6" fill="#fff"/>
+    <rect x="56" y="-8" width="10" height="6" fill="#fff"/>
+    <circle cx="10" cy="20" r="4" fill="#000"/>
+    <circle cx="60" cy="20" r="4" fill="#000"/>
+  </g>
+
+  <!-- ===== Roadside Trees ===== -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" from="750 160" to="-50 160" dur="15s" repeatCount="indefinite" begin="1s"/>
+    <polygon points="0,0 -5,-15 5,-15" fill="#228B22"/>
+    <rect x="-2" y="0" width="4" height="8" fill="#8B4513"/>
+  </g>
+
+  <!-- ===== Dark Green Cactuses with Spikes ===== -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" from="900 160" to="-120 160" dur="9s" repeatCount="indefinite"/>
+    <rect x="0" y="-35" width="10" height="35" fill="#006400"/>
+    <rect x="-8" y="-25" width="8" height="12" fill="#006400"/>
+    <rect x="10" y="-20" width="8" height="12" fill="#006400"/>
+    <line x1="2" y1="-30" x2="2" y2="-32" stroke="#9ACD32" stroke-width="1"/>
+    <line x1="6" y1="-20" x2="6" y2="-22" stroke="#9ACD32" stroke-width="1"/>
+    <line x1="0" y1="-10" x2="0" y2="-12" stroke="#9ACD32" stroke-width="1"/>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" from="1200 160" to="-120 160" dur="12s" begin="4s" repeatCount="indefinite"/>
+    <rect x="0" y="-28" width="8" height="28" fill="#006400"/>
+    <line x1="2" y1="-5" x2="2" y2="-7" stroke="#9ACD32" stroke-width="1"/>
+    <line x1="4" y1="-15" x2="4" y2="-17" stroke="#9ACD32" stroke-width="1"/>
+    <line x1="6" y1="-20" x2="6" y2="-22" stroke="#9ACD32" stroke-width="1"/>
+  </g>
+
+  <!-- ===== Traffic Lights ===== -->
+  <!-- Traffic light 1 -->
+  <g>
+    <rect x="100" y="120" width="6" height="20" fill="#333"/>
+    <circle cx="103" cy="125" r="2" fill="red">
+      <animate attributeName="fill" values="red;green;yellow;red" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="103" cy="130" r="2" fill="yellow">
+      <animate attributeName="fill" values="yellow;red;green;yellow" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="103" cy="135" r="2" fill="green">
+      <animate attributeName="fill" values="green;yellow;red;green" dur="6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Traffic light 2 -->
+  <g>
+    <rect x="500" y="120" width="6" height="20" fill="#333"/>
+    <circle cx="503" cy="125" r="2" fill="red">
+      <animate attributeName="fill" values="red;green;yellow;red" dur="6s" repeatCount="indefinite" begin="2s"/>
+    </circle>
+    <circle cx="503" cy="130" r="2" fill="yellow">
+      <animate attributeName="fill" values="yellow;red;green;yellow" dur="6s" repeatCount="indefinite" begin="2s"/>
+    </circle>
+    <circle cx="503" cy="135" r="2" fill="green">
+      <animate attributeName="fill" values="green;yellow;red;green" dur="6s" repeatCount="indefinite" begin="2s"/>
+    </circle>
+  </g>
+
+</svg>
