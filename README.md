@@ -1,19 +1,26 @@
-<h1 align="center">Hi 👋, I'm Sachi</h1>
-<h3 align="center">Flutter Developer | Mobile & Web</h3>
+<h1 align="center">Hi 👋, I'm Sachini</h1>
+<h3 align="center">Flutter Developer | Mobile | Image Processing</h3>
 
 ---
 
 🌱 I’m currently learning **Advanced Flutter & Clean Architecture**  
-💬 Ask me about **Flutter, Dart, Firebase**  
 📫 Reach me at **sachidasa4@gmail.com**
 
 ---
 
 ### 🚀 Tech Stack
 - 💙 Flutter | Dart
-- 🔥 Firebase
-- 🌐 HTML | CSS | JavaScript
-- 🛠 Git | GitHub
+- React
+- C / C++
+- Java
+- Python 
+
+---
+
+### 🏙 My Animated City Scene
+<p align="center">
+  <img src="assets/city_scene.svg" width="800"/>
+</p>
 
 ---
 
@@ -26,5 +33,5 @@
 
 ### 🔥 Streak
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SachiDasa&theme=tokyonight" />
 </p>
