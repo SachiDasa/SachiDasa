@@ -5,7 +5,7 @@
 
 🌱 I’m currently learning **Advanced Flutter & Clean Architecture**  
 💬 Ask me about **Flutter, Dart, Firebase**  
-📫 Reach me at **your-email@gmail.com**
+📫 Reach me at **sachidasa4@gmail.com**
 
 ---
 
@@ -19,7 +19,7 @@
 
 ### 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=SachiDasa&show_icons=true&theme=tokyonight" />
 </p>
 
 ---
