@@ -16,8 +16,6 @@
 - Python 
 
 ---
-
-### 🏙 My Animated City Scene
 <p align="center">
   <img src="city_scene.svg" width="800"/>
 </p>
